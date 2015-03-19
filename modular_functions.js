@@ -100,14 +100,6 @@ display_tweets = function(req, res){
 
 
 
-
-
-
-
-
-
-
-
 exports.homepage=homepage;
 exports.get_tweets=get_tweets;
 exports.display_tweets = display_tweets;
