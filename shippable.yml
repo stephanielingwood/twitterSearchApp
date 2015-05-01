@@ -17,4 +17,6 @@ notifications:
          on_success: always
          on_failure: always
          
-script: cat text.txt
+script: 
+ - cat text.txt
+ - cat book1.txt
