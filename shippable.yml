@@ -20,3 +20,4 @@ notifications:
 script: 
  - cat text.txt
  - cat book1.txt
+ - cat testapp.txt
