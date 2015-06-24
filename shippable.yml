@@ -5,19 +5,17 @@ node_js:
   - 0.11
 
 archive: true
- 
-  
+
+
 services:
    - mongodb
 
 notifications:
      email:
          recipients:
-             - chandrakanth@shippable.com
+             - stephanie@shippable.com
          on_success: always
          on_failure: always
-         
-script: 
- - cat text.txt
- - cat book1.txt
- - cat testapp.txt
+
+script:
+ - cat test5000lines.txt
